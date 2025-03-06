@@ -125,6 +125,7 @@ class ParkingLot
 {
     private Dictionary<int, Vehicle> slots;
     private int capacity;
+    private Dictionary<int, double>? fees;
 
     public ParkingLot(int capacity)
     {
@@ -132,6 +133,7 @@ class ParkingLot
             throw new ArgumentException("Capacity must be greater than 0");
         this.capacity = capacity;
         slots = new Dictionary<int, Vehicle>();
+        fees = new Dictionary<int, double>();
     }
 
     public void ParkVehicle(Vehicle vehicle)
@@ -144,15 +146,20 @@ class ParkingLot
 
         int slot = Enumerable.Range(1, capacity).FirstOrDefault(i => !slots.ContainsKey(i));
         slots[slot] = vehicle;
+        if (vehicle.Type.Equals("Motor", StringComparison.OrdinalIgnoreCase)) fees[slot] = 5000;
+        fees[slot] = 10000;
+
         Console.WriteLine($"Allocated slot number: {slot}");
     }
 
     public void Leave(int slot)
     {
-        if (slots.Remove(slot))
+        if (slots.Remove(slot)) {
+            fees.Remove(slot);
             Console.WriteLine($"Slot number {slot} is free");
-        else
+        } else {
             Console.WriteLine("Slot is already empty");
+        }
     }
 
     public void Status()
