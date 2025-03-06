@@ -1,0 +1,14 @@
+/home/enigma/NET/TesNTT/parking-system-test/bin/Debug/net8.0/parking-system-test
+/home/enigma/NET/TesNTT/parking-system-test/bin/Debug/net8.0/parking-system-test.deps.json
+/home/enigma/NET/TesNTT/parking-system-test/bin/Debug/net8.0/parking-system-test.runtimeconfig.json
+/home/enigma/NET/TesNTT/parking-system-test/bin/Debug/net8.0/parking-system-test.dll
+/home/enigma/NET/TesNTT/parking-system-test/bin/Debug/net8.0/parking-system-test.pdb
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.GeneratedMSBuildEditorConfig.editorconfig
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.AssemblyInfoInputs.cache
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.AssemblyInfo.cs
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.csproj.CoreCompileInputs.cache
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.dll
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/refint/parking-system-test.dll
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.pdb
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/parking-system-test.genruntimeconfig.cache
+/home/enigma/NET/TesNTT/parking-system-test/obj/Debug/net8.0/ref/parking-system-test.dll
